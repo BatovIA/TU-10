@@ -97,7 +97,6 @@ void loop() {
   SAND.tick();
   STOP.tick();
   START.tick(); 
-  START.tick();
 
   if (bus.read(0) == 1){
 if ((USBEMU)&(!flag_q_press)) {Keyboard.click(KEY_Q);}
